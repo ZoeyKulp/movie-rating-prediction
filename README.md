@@ -1,10 +1,10 @@
 # Movie Rating Prediction Model
 
-**Course:** Machine Learning — Summary Assignment Part 2
+**Course:** Machine Learning - Summary Assignment Part 2
 
 **Submitted by:**
-Zohar Colp — 322435918
-Roni Pchima — 212009260
+Zohar Colp - 322435918
+Roni Pchima - 212009260
 
 ---
 
@@ -65,8 +65,8 @@ y_pred = model.predict(X)
 
 ## Models
 
-- **Elastic Net** — linear regression with combined L1+L2 regularization. Alpha and l1_ratio tuned via 10-fold cross-validation inside a Pipeline.
-- **Random Forest** — ensemble tree model. `n_estimators`, `max_depth`, and `min_samples_split` tuned via 10-fold cross-validation inside a Pipeline.
+- **Elastic Net** - linear regression with combined L1+L2 regularization. Alpha and l1_ratio tuned via 10-fold cross-validation inside a Pipeline.
+- **Random Forest** - ensemble tree model. `n_estimators`, `max_depth`, and `min_samples_split` tuned via 10-fold cross-validation inside a Pipeline.
 
 All preprocessing (imputation, scaling, encoding) is performed inside the Pipeline, fitted only on training folds. No data leakage.
 
