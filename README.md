@@ -87,14 +87,14 @@ predictions = model.predict(X)
 
 ### Elastic Net
 Linear regression model combining L1 and L2 regularization.
-`alpha` and `l1_ratio` were tuned via GridSearchCV with 10-Fold Cross Validation inside a Pipeline.
+`alpha` and `l1_ratio` were tuned via GridSearchCV (5-Fold CV), with final evaluation using 10-Fold Cross Validation inside a Pipeline.
 
 ### Random Forest
 Ensemble tree-based model capable of capturing non-linear relationships between features and movie ratings.
-`n_estimators`, `max_depth`, and `min_samples_split` were tuned via GridSearchCV with 10-Fold Cross Validation inside a Pipeline.
+`n_estimators`, `max_depth`, and `min_samples_split` were tuned via GridSearchCV (5-Fold CV), with final evaluation using 10-Fold Cross Validation inside a Pipeline.
 
 ### Submission Model
-The file `model.pkl` contains the **Elastic Net** model, selected for the competition per the instructor's guidelines, after full hyperparameter tuning via GridSearchCV and 10-Fold Cross Validation.
+The file `model.pkl` contains the **Elastic Net** model, selected for the competition per the instructor's guidelines, after full hyperparameter tuning via GridSearchCV (5-Fold CV) and 10-Fold Cross Validation.
 
 ---
 
