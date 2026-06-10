@@ -3,7 +3,7 @@
 **Course:** Machine Learning - Summary Assignment Part 2
 
 **Submitted by:**
-Zohar Colp - 322435918
+Zohar Kulp - 322435918
 Roni Fahima - 212009260
 
 ---
